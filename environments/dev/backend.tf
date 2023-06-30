@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "advance-totem-391104-tfstate"
     prefix = "env/dev"
   }
 }
